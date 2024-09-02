@@ -12,11 +12,11 @@ Ez a projekt bemutatja egy Spring Boot webalkalmazás konténerizálását Docke
 <br />
 
 ## Tartalom
-- Dockerfile
-- Mentést végző script
-- Reverse proxy konfiguráció
-- Tanúsítvány generálásához felhasznált eszközök
-- Publikus URL
+🌟 **Dockerfile**
+🌟 **Mentést végző script**
+🌟 **Reverse proxy konfiguráció**
+🌟 **Tanúsítvány generálásához felhasznált eszközök**
+🌟 **Publikus URL**
 
 <br />
 
@@ -36,5 +36,5 @@ A tanúsítványok generálásához OpenSSL-t használtunk. OpenSSL egy nyílt f
 
 <br />
 
-<a name="tech-docs">📚 Források: </a>
+## <a name="tech-docs">📚 Források: </a>
 <div align="center"> <a href="https://docs.docker.com/" target="_blank"> <img src="https://img.shields.io/badge/-Docker_Documentation-black?style=for-the-badge&logoColor=white&logo=docker&color=2496ED" alt="docker-documentation" /> </a> <a href="https://spring.io/projects/spring-boot" target="_blank"> <img src="https://img.shields.io/badge/-Spring_Boot_Documentation-black?style=for-the-badge&logoColor=white&logo=springboot&color=6DB33F" alt="spring-boot-documentation" /> </a> <a href="https://nginx.org/en/docs/" target="_blank"> <img src="https://img.shields.io/badge/-Nginx_Documentation-black?style=for-the-badge&logoColor=white&logo=nginx&color=009639" alt="nginx-documentation" /> </a> <a href="https://www.openssl.org/docs/" target="_blank"> <img src="https://img.shields.io/badge/-OpenSSL_Documentation-black?style=for-the-badge&logoColor=white&logo=openssl&color=F4B931" alt="openssl-documentation" /> </a> </div>
