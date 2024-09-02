@@ -1,8 +1,15 @@
-Spring Boot Webalkalmazás Dockerizálása és HTTPS Konfigurálása
+## Spring Boot Webalkalmazás Dockerizálása és HTTPS Konfigurálása
+
+<br />
+
 Ez a projekt bemutatja egy Spring Boot webalkalmazás konténerizálását Docker segítségével, és annak elérhetőségét HTTPS-en keresztül egy Nginx reverse proxy konfigurációval. A dokumentáció tartalmazza a szükséges fájlokat és lépéseket a projekt beállításához, valamint a mentés ütemezését.
+
+<br />
 
 <a name="tech-stack">⚙️ Technológiák: </a>
 <div align="center"> <a href="https://spring.io/projects/spring-boot" target="_blank"> <img src="https://img.shields.io/badge/-Spring_Boot-black?style=for-the-badge&logoColor=white&logo=springboot&color=6DB33F" alt="spring-boot" /> </a> <a href="https://www.docker.com/" target="_blank"> <img src="https://img.shields.io/badge/-Docker-black?style=for-the-badge&logoColor=white&logo=docker&color=2496ED" alt="docker" /> </a> <a href="https://www.nginx.com/" target="_blank"> <img src="https://img.shields.io/badge/-Nginx-black?style=for-the-badge&logoColor=white&logo=nginx&color=009639" alt="nginx" /> </a> <a href="https://www.openssl.org/" target="_blank"> <img src="https://img.shields.io/badge/-OpenSSL-black?style=for-the-badge&logoColor=white&logo=openssl&color=F4B931" alt="openssl" /> </a> <a href="https://docs.docker.com/compose/" target="_blank"> <img src="https://img.shields.io/badge/-Docker_Compose-black?style=for-the-badge&logoColor=white&logo=docker&color=black" alt="docker-compose" /> </a> </div>
+
+<br />
 
 Tartalom
 Dockerfile
