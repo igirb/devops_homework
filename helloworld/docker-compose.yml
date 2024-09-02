@@ -6,7 +6,9 @@ services:
     build: .
     environment:
       - JAVA_OPTS=-Xms512m -Xmx1024m
-    networks:
+    ports:
+      - "8080:8080"   
+     networks:
       - webnet
 
   nginx:
