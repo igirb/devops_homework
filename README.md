@@ -28,6 +28,22 @@ A mentést végző script biztosítja a konfigurációs fájlok napi mentését.
 
 A script napi futtatásához cron ütemezést használhatunk.
 
+**Crontab Setup*
+
+- To schedule the backup script to run daily at 22:00 (10 PM), you need to add an entry to your crontab. Use the following command to edit the crontab:
+
+```bash
+crontab -e
+```
+
+Then, add the following line to schedule the backup script:
+
+```bash
+0 22 * * * /path/to/your/backup-script.sh
+0 22 * * * specifies that the script should run every day at 22:00.
+/path/to/your/backup-script.sh should be replaced with the actual path to your backup script.
+```
+
 # Reverse Proxy Konfiguráció
 Az Nginx konfigurációs fájl beállítja az HTTPS elérést és a Spring Boot alkalmazás proxyzását. A konfiguráció biztosítja a HTTP-ről HTTPS-re történő átirányítást és az SSL tanúsítványok használatát.
 
