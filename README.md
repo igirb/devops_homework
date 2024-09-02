@@ -12,11 +12,11 @@ Ez a projekt bemutatja egy Spring Boot webalkalmazás konténerizálását Docke
 <br />
 
 ## Tartalom
-🌟 **Dockerfile**
-🌟 **Mentést végző script**
-🌟 **Reverse proxy konfiguráció**
-🌟 **Tanúsítvány generálásához felhasznált eszközök**
-🌟 **Publikus URL**
+- 🌟 **Dockerfile**
+- 🌟 **Mentést végző script**
+- 🌟 **Reverse proxy konfiguráció**
+- 🌟 **Tanúsítvány generálásához felhasznált eszközök**
+- 🌟 **Publikus URL**
 
 <br />
 
