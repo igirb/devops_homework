@@ -28,7 +28,7 @@ A mentést végző script biztosítja a konfigurációs fájlok napi mentését.
 
 A script napi futtatásához cron ütemezést használhatunk.
 
-**Crontab Setup*
+*Crontab Setup*
 
 - To schedule the backup script to run daily at 22:00 (10 PM), you need to add an entry to your crontab. Use the following command to edit the crontab:
 
