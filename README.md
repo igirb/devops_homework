@@ -41,7 +41,7 @@ Then, add the following line to schedule the backup script:
 ```bash
 0 22 * * * /path/to/your/backup-script.sh
 0 22 * * * specifies that the script should run every day at 22:00.
-/path/to/your/backup-script.sh should be replaced with the actual path to your backup script.
+/path/to/your/backup-script.sh a fájlhoz vezető path a saját gépeden
 ```
 
 # Reverse Proxy Konfiguráció
