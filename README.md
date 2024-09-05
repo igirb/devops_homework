@@ -28,20 +28,20 @@ A mentést végző script biztosítja a konfigurációs fájlok napi mentését.
 
 A script napi futtatásához cron ütemezést használhatunk.
 
-*Crontab Setup*
+*Crontab Beállítása*
 
-- To schedule the backup script to run daily at 22:00 (10 PM), you need to add an entry to your crontab. Use the following command to edit the crontab:
+- Ahhoz, hogy a backup script naponta 22:00-kor (10 PM) fusson, hozzá kell adnod egy bejegyzést a crontab fájlhoz. Használd a következő parancsot a crontab szerkesztéséhez:
 
 ```bash
 crontab -e
 ```
 
-Then, add the following line to schedule the backup script:
+zután add hozzá a következő sort, hogy időzítsd a backup script futtatását:
 
 ```bash
-0 22 * * * /path/to/your/backup-script.sh
-0 22 * * * specifies that the script should run every day at 22:00.
-/path/to/your/backup-script.sh a fájlhoz vezető path a saját gépeden
+0 22 * * * /az/ut/a/backup-scriptedhez.sh
+0 22 * * * azt jelenti, hogy a script minden nap 22:00-kor fog futni.
+/az/ut/a/backup-scriptedhez.sh helyére a saját gépeden lévő script pontos elérési útját kell megadnod.
 ```
 
 # Reverse Proxy Konfiguráció
