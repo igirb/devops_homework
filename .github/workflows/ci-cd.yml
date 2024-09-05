@@ -23,7 +23,9 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven
-        run: mvn clean package -DskipTests
+        run: |
+          cd helloworld
+          mvn clean package -DskipTests
 
       - name: Build Docker image
         run: docker build -t helloworld-app .
