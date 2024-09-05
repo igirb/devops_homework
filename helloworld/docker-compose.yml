@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   helloworld-app:
-    image: helloworld-app
+    image: igirb/helloworld-app:latest
     build: .
     environment:
       - JAVA_OPTS=-Xms512m -Xmx1024m
