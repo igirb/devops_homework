@@ -57,8 +57,8 @@ jobs:
       - name: Deploy to server
         run: |
             docker pull ${{ secrets.DOCKER_USERNAME }}/helloworld-app:latest
-            docker-compose down
-            docker-compose up -d
+            docker-compose -f helloworld/docker-compose.yml down
+            docker-compose -f helloworld/docker-compose.yml up -d
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
