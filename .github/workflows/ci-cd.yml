@@ -28,7 +28,7 @@ jobs:
           mvn clean package -DskipTests
 
       - name: Build Docker image
-        run: docker build -t helloworld-app .
+        run: docker build -t helloworld-app -f helloworld/Dockerfile helloworld
 
       - name: Login to DockerHub
         env:
