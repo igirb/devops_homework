@@ -91,7 +91,22 @@ A projekt és az Nginx konfigurációk biztonsági mentéséhez futtassa a backu
 Ez a script a megadott könyvtárakat tömöríti egy .tar.gz fájlba, amelyet a /backup könyvtárba ment.
 
 ### Backup Fájlok Helyreállítása
-A backup fájlok helyreállításához bontsa ki a .tar.gz fájlt a megfelelő könyvtárba.
+A backup fájlok helyreállításához bontsa ki a `backup-$TIMESTAMP.tar.gz` fájlt a megfelelő könyvtárba.
+
+Ehhez használja az alábbi parancsot:
+
+```bash
+tar -xvzf /path/to/backup-$TIMESTAMP.tar.gz -C /path/to/destination/
+/path/to/backup-$TIMESTAMP.tar.gz: A mentett fájl helye.
+/path/to/destination/: A célkönyvtár, ahova a fájlokat ki szeretnéd csomagolni.
+```
+
+A -xvzf opciók jelentése:
+
+- *-x*: Kicsomagolás
+- *-v*: Részletes információk megjelenítése
+- *-z*: gzip használata
+- *-f*: Fájl megadása
 
 ## Hibaelhárítás
 Ha problémákat tapasztal, ellenőrizze a konténerek naplóit további információkért:
