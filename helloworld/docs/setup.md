@@ -7,25 +7,6 @@ Ez a projekt egy egyszerű Spring Boot webalkalmazás, amely "Hello, World!" üz
 - Nginx fordított proxy konfiguráció a HTTP és HTTPS kezeléséhez.
 - Biztonsági mentési script a projekt és az Nginx konfigurációhoz.
 
-# Beállítási útmutató
-
-Ez a dokumentum lépésről lépésre bemutatja a Helloworld alkalmazás beállítását localhoston.
-
-## Előfeltételek
-
-Mielőtt elkezdené, győződjön meg róla, hogy a következők telepítve vannak:
-- **Docker**: [Telepítési útmutató](https://docs.docker.com/get-docker/)
-- **Docker Compose**: [Telepítési útmutató](https://docs.docker.com/compose/install/)
-- **Git**: [Telepítési útmutató](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-
-## A repository klónozása
-
-Először klónozza a projekt repository-t a GitHub-ról.
-
-```bash
-git clone https://github.com/igirb/devops_homework.git
-```
-
 ## Projekt szerkezete
 
 ```
@@ -72,6 +53,25 @@ helloworld/
 - docker-compose.yml: Docker Compose konfiguráció a több konténer kezeléséhez.
 - backup.sh: Backup script a projekthez.
 
+# Beállítási útmutató
+
+Ez a dokumentum lépésről lépésre bemutatja a Helloworld alkalmazás beállítását localhoston.
+
+## Előfeltételek
+
+Mielőtt elkezdené, győződjön meg róla, hogy a következők telepítve vannak:
+- **Docker**: [Telepítési útmutató](https://docs.docker.com/get-docker/)
+- **Docker Compose**: [Telepítési útmutató](https://docs.docker.com/compose/install/)
+- **Git**: [Telepítési útmutató](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+## A repository klónozása
+
+Először klónozza a projekt repository-t a GitHub-ról.
+
+```bash
+git clone https://github.com/igirb/devops_homework.git
+```
+
 ### Környezeti konfiguráció
 Győződjön meg arról, hogy a környezet megfelelően van beállítva. Ebben a projektben biztosítsa, hogy a szükséges SSL tanúsítványok elérhetők az nginx/certs könyvtárban.
 
@@ -81,6 +81,7 @@ Győződjön meg arról, hogy a környezet megfelelően van beállítva. Ebben a
 
 ### A Docker konténerek buildelése és indítása
 ```bash
+cd ./helloworld
 docker-compose up --build
 ```
 
