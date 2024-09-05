@@ -97,9 +97,10 @@ Ehhez használja az alábbi parancsot:
 
 ```bash
 tar -xvzf /path/to/backup-$TIMESTAMP.tar.gz -C /path/to/destination/
+```
+
 /path/to/backup-$TIMESTAMP.tar.gz: A mentett fájl helye.
 /path/to/destination/: A célkönyvtár, ahova a fájlokat ki szeretnéd csomagolni.
-```
 
 A -xvzf opciók jelentése:
 
