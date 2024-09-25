@@ -36,7 +36,7 @@ A script napi futtatásához cron ütemezést használhatunk.
 crontab -e
 ```
 
-zután add hozzá a következő sort, hogy időzítsd a backup script futtatását:
+Azután add hozzá a következő sort, hogy időzítsd a backup script futtatását:
 
 ```bash
 0 22 * * * /az/ut/a/backup-scriptedhez.sh
